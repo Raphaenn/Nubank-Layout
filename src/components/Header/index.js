@@ -1,10 +1,16 @@
-import React from 'react'
-import { Container, Title } from "./styles"
+import React from 'react';
+import { Container, Top, Logo, Title } from "./styles";
+import logo from "~/assets/Nubank_Logo.png";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 export default function Header() {
     return (
         <Container>
-            <Title>Nubank</Title>
+                <Top>
+                    <Logo source={logo} />
+                    <Title>Raphael</Title>
+                </Top>
+                <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
         </Container>
     );
 }
