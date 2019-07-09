@@ -6,11 +6,11 @@ import Icon from "react-native-vector-icons/MaterialIcons";
 export default function Header() {
     return (
         <Container>
-                <Top>
-                    <Logo source={logo} />
-                    <Title>Raphael</Title>
-                </Top>
-                <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
+            <Top>
+                <Logo source={logo} />
+                <Title>Raphael</Title>
+            </Top>
+            <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
         </Container>
     );
 }
