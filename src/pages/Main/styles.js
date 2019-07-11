@@ -43,7 +43,8 @@ export const Title = styled.Text`
 export const Description = styled.Text`
     font-size: 32px;
     margin-top: 3px;
-    color: #333;
+    color: #20c6b6;
+    font-weight: bold;
 `;
 
 export const CardFooter = styled.View`

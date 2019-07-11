@@ -18,8 +18,9 @@ export default function Main() {
           <Icon name="visibility-off" size={28} color="#666" />
           </CardHeader>
           <CardContent>
-            <Title>Saldo Disponível</Title>
+            <Title>FATURA ATUAL</Title>
             <Description>R$ 7.887,87</Description>
+            <Title>Limite disponível: R$ 500,00</Title>
           </CardContent>
           <CardFooter>
             <Annotation>
