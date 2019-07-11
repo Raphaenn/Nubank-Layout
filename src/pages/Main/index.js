@@ -18,7 +18,7 @@ export default function Main() {
           <Icon name="visibility-off" size={28} color="#666" />
           </CardHeader>
           <CardContent>
-            <Title>Saldo disponível</Title>
+            <Title>Saldo Disponível</Title>
             <Description>R$ 7.887,87</Description>
           </CardContent>
           <CardFooter>
