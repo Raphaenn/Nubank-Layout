@@ -7,7 +7,7 @@ export default function Menu() {
     return (
         <Container>
             <Code>
-                <Icon name="view-comfy" size={80} color="#FFF"/>
+                <Icon name="view-comfy" size={80} color="#8B10AE"/>
             </Code>
         </Container>
     );
