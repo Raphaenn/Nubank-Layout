@@ -1,9 +1,11 @@
 import React from 'react';
+
 import Icon from "react-native-vector-icons/MaterialIcons";
 
 import Header from "~/components/Header";
 import Tabs from "~/components/Tabs";
-/* import Menu from "~/components/Menu"; */
+import Menu from "~/components/Menu";
+
 
 import { Container, Content, Card, CardHeader, CardContent, Title, Description, CardFooter, Annotation } from './styles';
 
@@ -13,7 +15,7 @@ export default function Main() {
       <Header />
 
       <Content>
-{/*         <Menu /> */}
+        <Menu />
 
         <Card>
           <CardHeader>

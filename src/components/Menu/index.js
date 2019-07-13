@@ -1,19 +1,14 @@
-/* import React from 'react';
-import QRCode from 'react-native-qrcode';
+import React from 'react';
+import Icon from "react-native-vector-icons/MaterialIcons";
 
-import { Container, Code} from "./styles";
+import { Container, Code}  from "./styles";
 
 export default function Menu() {
     return (
         <Container>
             <Code>
-                <QRCode
-                    value="https://www.google.com/"
-                    size={80}
-                    bgColor="#8B10AE"
-                    fgColor="#FFF"
-                />
+                <Icon name="view-comfy" size={80} color="#FFF"/>
             </Code>
         </Container>
     );
-} */
+}
