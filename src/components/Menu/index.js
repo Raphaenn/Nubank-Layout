@@ -33,7 +33,7 @@ export default function Menu() {
             </Nav>
 
             <BotaoSair onPress={() => {}}>
-                <TextoSair>Sair do app</TextoSair>
+                <TextoSair>SAIR DO APP</TextoSair>
             </BotaoSair>
         </Container>
     );

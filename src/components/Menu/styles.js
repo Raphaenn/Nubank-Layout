@@ -44,5 +44,4 @@ export const BotaoSair = styled.TouchableOpacity`
 export const TextoSair = styled.Text`
     font-size: 15px;
     color: #fff;
-    font-weight: bold;
 `;
