@@ -7,26 +7,6 @@
 <h4 align="center">
   A React Native clone app of one of the greatest fintechs of the world: <a href="https://nubank.com.br/">Nubank</a>
 </h4>
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lukemorales/nubank-react-native.svg">
-  
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lukemorales/nubank-react-native.svg">
-  
-  <a href="https://www.codacy.com/app/lukemorales/nubank-react-native?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lukemorales/nubank-react-native&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/fa0599d8f0434c7388ae9549c8aeb90b.svg">
-  </a>
-  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lukemorales/nubank-react-native.svg">
-  <a href="https://github.com/lukemorales/nubank-react-native/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lukemorales/nubank-react-native.svg">
-  </a>
-  
-  <a href="https://github.com/lukemorales/nubank-react-native/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lukemorales/nubank-react-native.svg">
-  </a>
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/lukemorales/nubank-react-native.svg"> 
-</p>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -60,7 +40,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lukemorales/nubank-react-native nubankRN
+$ git clone https://github.com/raphaenn/Nubank-layout
 
 # Go into the repository
 $ cd nubankRN
