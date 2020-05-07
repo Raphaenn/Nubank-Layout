@@ -1,26 +1,86 @@
-## Sobre o Projeto
+<h1 align="center">
+    <img alt="React GitHub Repo List" src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo.png" />
+    <br>
+    Nubank React Native Clone
+</h1>
 
-Este projeto visa a criação de um template que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
+<h4 align="center">
+  A React Native clone app of one of the greatest fintechs of the world: <a href="https://nubank.com.br/">Nubank</a>
+</h4>
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lukemorales/nubank-react-native.svg">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lukemorales/nubank-react-native.svg">
+  
+  <a href="https://www.codacy.com/app/lukemorales/nubank-react-native?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lukemorales/nubank-react-native&amp;utm_campaign=Badge_Grade">
+    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/fa0599d8f0434c7388ae9549c8aeb90b.svg">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lukemorales/nubank-react-native.svg">
+  <a href="https://github.com/lukemorales/nubank-react-native/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lukemorales/nubank-react-native.svg">
+  </a>
+  
+  <a href="https://github.com/lukemorales/nubank-react-native/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lukemorales/nubank-react-native.svg">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/lukemorales/nubank-react-native.svg"> 
+</p>
 
-### Feito Com
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-Abaixo segue o que foi utilizado na criação deste template:
+## :rocket: Technologies
 
-- [React Native](http://facebook.github.io/react-native/) - O React Native é um framework que permite o desenvolvimento de aplicações mobile usando Javascript e React;
-- [React Navigation](https://reactnavigation.org/) - O React Navigation surgiu da necessidade comunidade do React Native de uma navegação de forma fácil de se usar, e escrita toda em Javascript;
-- [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/) - API declarativa que permite a manipulação de toques e gestos no React Native;
-- [Axios](https://github.com/axios/axios) - O Axios é um cliente HTTP baseado em Promises para Browser e NodeJS;
-- [Prop Types](https://github.com/facebook/prop-types) - Verificação de tipo em tempo de execução para propriedades (props) React e objetos semelhantes;
-- [Reactotron](https://github.com/infinitered/reactotron) - O Reactotron é um app Desktop para inspecionar projetos em React ou React Native. Está disponível para macOS, Linux e Windows;
-  - [reactotron-react-native](https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md) - Plugin para configurar o Reactotron para se conectar ao projeto React Native;
-- [Babel](https://babeljs.io/) - O Babel é um compilador JavaScript gratuito e de código aberto e transpiler configurável usado no desenvolvimento de aplicações Javascript;
-  - [babel-eslint](https://github.com/babel/babel-eslint) - Este pacote é um _wrapper_ do parser do Babel para o ESLint;
-  - [babel-plugin-root-import](https://github.com/entwicklerstube/babel-plugin-root-import) - Esse plugin do Babel permite que sejam feitos imports e requires em caminhos baseados em uma raiz(root);
-- [Eslint](https://eslint.org/) - O ESLint é uma ferramenta de lint plugável para JavaScript e JSX;
-  - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) - Este pacote fornece o .eslintrc do Airbnb como uma configuração compartilhada extensível;
-  - [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import) - Plugin do ESLint com regras para ajudar na validação de imports;
-  - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) - Verificador estático AST das regras do a11y em elementos JSX;
-  - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react) - Regras de linting do ESLint específicas do React;
-  - [eslint-plugin-react-native](https://github.com/Intellicode/eslint-plugin-react-native) - Regras de linting do ESLint específicas do React Native;
-  - [eslint-import-resolver-babel-plugin-root-import](https://github.com/olalonde/eslint-import-resolver-babel-root-import) - Um resolver da lib _babel-root-import_ para a lib _eslint-plugin-import_;
-- [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
+This project was developed with the [RocketSeat Nubank Clone Video](https://youtu.be/DDm0M_rZLJo) with the following technologies:
+
+-  [React Native](http://facebook.github.io/react-native/)
+-  [React Navigation](https://reactnavigation.org/)
+-  [React Native Gesture Handler](https://kmagiera.github.io/react-native-gesture-handler/)
+-  [styled-components](https://www.styled-components.com/)
+-  [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/)
+-  [react-native-qrcode](https://www.npmjs.com/package/react-native-qrcode)
+-  [styled-components](https://www.styled-components.com/)
+-  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
+
+## :warning: Prerequisites
+
+In order to use and test the app on a simulator or on your smartphone, you should've already setup the development environment for React Native applications. You can follow the following article (PT-BR) to setup your environment:
+
+[React Native Environment (Android/iOS)](https://docs.rocketseat.dev/ambiente-react-native/introducao)
+  
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/lukemorales/nubank-react-native nubankRN
+
+# Go into the repository
+$ cd nubankRN
+
+# Install dependencies
+$ yarn install
+
+# Run the app (iOS)
+$ react-native run-ios --simulator="iPhone XS Max"
+
+# Run the app (Android)
+$ react-native run-android
+```
+
+---
+
+Criado por Raphael Neves :wave: [Get in touch!](https://www.linkedin.com/in/raphaelnneves/)
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
