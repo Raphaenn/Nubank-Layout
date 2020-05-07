@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="React GitHub Repo List" src="https://logospng.org/download/nubank/logo-nubank-512.png" />
+    <img alt="React GitHub Repo List" src="https://logospng.org/download/nubank/logo-nubank-roxo-512.png" />
     <br>
     Nubank React Native Clone
 </h1>
